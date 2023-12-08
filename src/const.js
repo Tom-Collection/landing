@@ -1,0 +1,2 @@
+export const product1 = "https://avatars.mds.yandex.net/get-mpic/12235261/2a0000018c39f78126aa2439d8e478ea5047/optimize"
+export const product2 = "https://avatars.mds.yandex.net/get-mpic/12235261/2a0000018c39f78126aa2439d8e478ea5047/optimize"
