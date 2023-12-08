@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 import {Link} from "react-router-dom";
 
-const Product = ({ url }) => {
+const Product = ({ url, title }) => {
 
     const [imageLoaded, setImageLoaded] = useState(false);
     const [imageSrc, setImageSrc] = useState(null);
@@ -31,9 +31,9 @@ const Product = ({ url }) => {
         <div className="card w-full sm:w-80 bg-white shadow-xl">
             {imageLoaded ? (
                 <>
-                    <figure><img src={url} alt="Bundle" /></figure>
+                    <figure><img src={imageSrc} alt="Bundle" /></figure>
                     <div className="card-body bg-white pt-0">
-                        <h2 className="card-title bg-white">Drip Coffee Bundle - 6x11</h2>
+                        <h2 className="card-title bg-white">{title}</h2>
                         <p>Coffee in drip packs, 100% arabica, pack of 6 drip packs of 11 grams each</p>
                         <div className="card-actions justify-end bg-white">
                             <Link

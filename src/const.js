@@ -1,2 +1,2 @@
-export const product1 = "https://avatars.mds.yandex.net/get-mpic/12235261/2a0000018c39f78126aa2439d8e478ea5047/optimize"
-export const product2 = "https://avatars.mds.yandex.net/get-mpic/12235261/2a0000018c39f78126aa2439d8e478ea5047/optimize"
+export const drip6 = "https://avatars.mds.yandex.net/get-mpic/11563949/2a0000018c3083ecb91dac422d24d641ceff/optimize"
+export const drip9 = "https://avatars.mds.yandex.net/get-mpic/12235261/2a0000018c39f78126aa2439d8e478ea5047/optimize"
